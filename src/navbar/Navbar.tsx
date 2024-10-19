@@ -5,7 +5,7 @@ import Link from "next/link";
 
 
 export const Navbar = () => {
-  const [ closeNav, setCloseNav ] = useState<boolean>(true);
+  const [ closeNav, setCloseNav ] = useState<boolean>(false);
 
   const handleNavClose = () => {
     setCloseNav(!closeNav);
@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <nav className={closeNav ? styles.nav : styles.navClose}>
-      <h1 className={styles.h1}>Mowo Consulting</h1>
+      <h1 className={styles.h1}>Shamzbridge HR</h1>
 
       <ul className={closeNav ? styles.ul :  `${styles.ulClose}`}>
       <li className={styles.li} onClick={handleNavClose}>
