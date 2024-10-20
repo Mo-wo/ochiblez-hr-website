@@ -1,6 +1,6 @@
-import { Hero } from "@/hero/HeroSection";
+import { Hero } from "@/sections/hero/HeroSection";
 import styles from "./page.module.css";
-import { Navbar } from "@/navbar/Navbar";
+import { Navbar } from "@/sections/navbar/Navbar";
 
 export default function Home() {
   return (
